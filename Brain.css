@@ -1,0 +1,78 @@
+body {
+  background-color: black;
+}
+
+.revenant {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 2%;
+  height: 2%;
+ 
+  z-index: 5;
+
+}
+
+
+
+audio { display:none;}
+
+.fade-in {
+  animation: fadeIn ease 410s;
+  -webkit-animation: fadeIn ease 410s;
+  -moz-animation: fadeIn ease 410s;
+  -o-animation: fadeIn ease 410s;
+  -ms-animation: fadeIn ease 410s;
+  display: block;
+  margin-left: 34%;
+
+  margin-top: 1%;
+  z-index: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+
+
+
